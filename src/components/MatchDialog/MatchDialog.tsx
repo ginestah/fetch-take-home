@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
@@ -24,7 +23,7 @@ const Transition = React.forwardRef(function Transition(
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-export default function MatchDialog({ myMatch, open, handleClose}: MatchDialogProps) {
+export default function MatchDialog({ myMatch, open, handleClose }: MatchDialogProps) {
 
 
   return (
